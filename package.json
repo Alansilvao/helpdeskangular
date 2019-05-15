@@ -6,10 +6,13 @@
     "postinstall": "ng build --aot -prod",
     "ng": "ng",
     "start": "node server.js ",
-    
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
+  },
+  "engines": {
+    "node": "10.13.0",
+    "npm": "6.4.1"
   },
   "private": true,
   "dependencies": {
@@ -52,9 +55,5 @@
     "ts-node": "~4.1.0",
     "tslint": "~5.9.1",
     "typescript": "~2.5.3"
-  },
-  "engines": {
-    "node": "10.13.0",
-    "npm": "6.4.1"
   }
 }
