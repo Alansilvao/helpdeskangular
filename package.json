@@ -4,7 +4,6 @@
   "license": "MIT",
   "scripts": {
     "heroku-postbuild": "npm run build",
-
     "ng": "ng",
     "start": "node server.js ",
     "test": "ng test",
