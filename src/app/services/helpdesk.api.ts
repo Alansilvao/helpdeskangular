@@ -1,0 +1,1 @@
+export const HELP_DESK_API: string = 'https://helpdeskalan.herokuapp.com/';
