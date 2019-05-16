@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "heroku-postbuild": "npm run build",
+    "postinstall": "ng build --aot --prod",
     "ng": "ng",
     "start": "node server.js ",
     "lint": "ng lint",
@@ -12,7 +12,7 @@
   },
   "engines": {
     "node": "10.13.0",
-    "npm": "6.4.1"
+    "npm": "6.4.1"  
   },
   "private": true,
   "dependencies": {
